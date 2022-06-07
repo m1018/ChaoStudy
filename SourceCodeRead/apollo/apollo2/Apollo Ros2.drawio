@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T07:33:06.968Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9jBz2RD75iYMAcZkjTp9" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T08:36:28.758Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CTGBlstp1qjvVsGRtYn2" version="19.0.1" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
-    <mxGraphModel dx="6018" dy="1424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4276" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1758,10 +1758,10 @@
             <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NdnX5HgA5LTQhRNNmhj_-1" value=":BroadcastManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" vertex="1" parent="1">
+        <mxCell id="NdnX5HgA5LTQhRNNmhj_-1" value=":BroadcastManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
           <mxGeometry x="-1170" y="2160" width="76.75" height="372" as="geometry" />
         </mxCell>
-        <mxCell id="NdnX5HgA5LTQhRNNmhj_-2" value="construct(const std::string&amp; ns, bool validate_name)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;entryX=0.956;entryY=0.331;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontSize=8;fontColor=#666666;" edge="1" parent="NdnX5HgA5LTQhRNNmhj_-1" source="NdnX5HgA5LTQhRNNmhj_-3" target="NdnX5HgA5LTQhRNNmhj_-4">
+        <mxCell id="NdnX5HgA5LTQhRNNmhj_-2" value="construct(const std::string&amp; ns, bool validate_name)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;entryX=0.956;entryY=0.331;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontSize=8;fontColor=#666666;" parent="NdnX5HgA5LTQhRNNmhj_-1" source="NdnX5HgA5LTQhRNNmhj_-3" target="NdnX5HgA5LTQhRNNmhj_-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="57" y="55" />
@@ -1769,14 +1769,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NdnX5HgA5LTQhRNNmhj_-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="NdnX5HgA5LTQhRNNmhj_-1">
+        <mxCell id="NdnX5HgA5LTQhRNNmhj_-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="NdnX5HgA5LTQhRNNmhj_-1" vertex="1">
           <mxGeometry x="33.38" y="40" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NdnX5HgA5LTQhRNNmhj_-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="NdnX5HgA5LTQhRNNmhj_-1">
+        <mxCell id="NdnX5HgA5LTQhRNNmhj_-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="NdnX5HgA5LTQhRNNmhj_-1" vertex="1">
           <mxGeometry x="33.38" y="80" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NdnX5HgA5LTQhRNNmhj_-5" value="管理建立拓扑图，利用FastDDS的服务发现服务" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="NdnX5HgA5LTQhRNNmhj_-5" value="管理建立拓扑图，利用FastDDS的服务发现服务" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="-1120" y="2190" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uUSyIo7moORraF6D4WAz-1" value="也就是这里面的服务发现，只用在远程调用XML上了&lt;br&gt;如果是共享内存，不需要这个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2358" y="2550" width="218" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
