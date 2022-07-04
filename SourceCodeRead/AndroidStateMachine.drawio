@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T04:02:29.305Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="4RFi4WSyw8B9stUO8n3A" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T06:01:37.035Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CNqDChSuGGigAAZo9w4g" version="19.0.1" type="github">
   <diagram id="2qspyzf-ruP9NshNnaJj" name="Page-1">
     <mxGraphModel dx="2012" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,6 +114,12 @@
           <mxGeometry x="-0.3792" y="1" relative="1" as="geometry">
             <mxPoint x="15" y="11" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="J98nXzrh9_PEmeKPfJ4L-42" value="1. 如果是第一次直接添加&lt;br&gt;2. 如果不是，添加在队列的后面&lt;br&gt;3. 然后通知wait部分" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1050" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J98nXzrh9_PEmeKPfJ4L-43" value="然后其实就是另一端生产消费者拿数据" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1130" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
