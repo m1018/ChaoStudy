@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T16:27:51.227Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="LEEscNstLiqK9iI7Gk3r" version="20.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T13:44:42.624Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="QzdddjwEeEJEGX7O3JfR" version="20.1.3" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
-    <mxGraphModel dx="5412" dy="258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5590" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2435,6 +2435,12 @@
         </mxCell>
         <mxCell id="V7lW8Zbr6VmkO02WSWUc-201" value="存储了URL" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=7;" vertex="1" parent="1">
           <mxGeometry x="-1580" y="1512.06" width="40" height="17.94" as="geometry" />
+        </mxCell>
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-202" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pending_connections_是干嘛的&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-1895" y="1663.13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-203" value="1. Server绑定后_disp.addSource(this, XmlRpcDispatch::ReadableEvent);&#xa;&#xa;2. pubUpdate：disp.addSource(this, XmlRpcDispatch::WritableEvent | XmlRpcDispatch::Exception)  RequestTopic  name topic tcp&#xa;3.  每次和server通信的时候 accept  ------》 _disp.addSource(this-&gt;createConnection(s), XmlRpcDispatch::ReadableEvent);&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-1801.75" y="1870" width="341.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
