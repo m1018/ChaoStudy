@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T13:44:42.624Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="QzdddjwEeEJEGX7O3JfR" version="20.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T16:09:03.048Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="VcJ-apwuIBva7NDUGqvE" version="20.1.3" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
     <mxGraphModel dx="5590" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2281,9 +2281,6 @@
         <mxCell id="V7lW8Zbr6VmkO02WSWUc-145" value="generateMessage(&quot;registerSubscriber&quot;)" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-2493.4999999999995" y="1937.0029629629637" as="geometry" />
         </mxCell>
-        <mxCell id="V7lW8Zbr6VmkO02WSWUc-146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="-2560.72" y="1843" width="10" height="37" as="geometry" />
-        </mxCell>
         <mxCell id="V7lW8Zbr6VmkO02WSWUc-147" value=":Participant" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" vertex="1" parent="1">
           <mxGeometry x="-2468.97" y="1642" width="76.75" height="320" as="geometry" />
         </mxCell>
@@ -2417,8 +2414,20 @@
         <mxCell id="V7lW8Zbr6VmkO02WSWUc-196" value=":SubscriptionPtr" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" vertex="1" parent="1">
           <mxGeometry x="-1440" y="1348" width="76.75" height="501" as="geometry" />
         </mxCell>
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-205" value="negotiateConnection(const std::string&amp; xmlrpc_uri)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=8;" edge="1" parent="V7lW8Zbr6VmkO02WSWUc-196" source="V7lW8Zbr6VmkO02WSWUc-197" target="V7lW8Zbr6VmkO02WSWUc-204">
+          <mxGeometry x="-0.026" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="272" />
+              <mxPoint x="70" y="335" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="V7lW8Zbr6VmkO02WSWUc-197" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="V7lW8Zbr6VmkO02WSWUc-196">
           <mxGeometry x="33.37" y="228" width="10" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-204" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="V7lW8Zbr6VmkO02WSWUc-196">
+          <mxGeometry x="33.36999999999989" y="305" width="10" height="59" as="geometry" />
         </mxCell>
         <mxCell id="V7lW8Zbr6VmkO02WSWUc-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=8;" edge="1" parent="1" source="V7lW8Zbr6VmkO02WSWUc-189" target="V7lW8Zbr6VmkO02WSWUc-197">
           <mxGeometry relative="1" as="geometry">
@@ -2439,8 +2448,20 @@
         <mxCell id="V7lW8Zbr6VmkO02WSWUc-202" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pending_connections_是干嘛的&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=7;" vertex="1" parent="1">
           <mxGeometry x="-1895" y="1663.13" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V7lW8Zbr6VmkO02WSWUc-203" value="1. Server绑定后_disp.addSource(this, XmlRpcDispatch::ReadableEvent);&#xa;&#xa;2. pubUpdate：disp.addSource(this, XmlRpcDispatch::WritableEvent | XmlRpcDispatch::Exception)  RequestTopic  name topic tcp&#xa;3.  每次和server通信的时候 accept  ------》 _disp.addSource(this-&gt;createConnection(s), XmlRpcDispatch::ReadableEvent);&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="-1801.75" y="1870" width="341.75" height="60" as="geometry" />
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-203" value="1. Server绑定后_disp.addSource(this, XmlRpcDispatch::ReadableEvent);&#xa;&#xa;2. pubUpdate：disp.addSource(this, XmlRpcDispatch::WritableEvent | XmlRpcDispatch::Exception)  RequestTopic  name topic tcp&#xa;3.  _disp.addSource(this, XmlRpcDispatch::WritableEvent | XmlRpcDispatch::Exception);&#xa;在tcp通道添加方法&#xa;4. 每个server把client都添加到自己的souce：        disp-&gt;addSource(client_, XmlRpc::XmlRpcDispatch::WritableEvent | XmlRpc::XmlRpcDispatch::Exception);&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-1680" y="1872" width="341.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-206" value="pending_connections_&#xa;防重复处理" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-1485" y="1365" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-207" value=":XMLRPCManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" vertex="1" parent="1">
+          <mxGeometry x="-1810.87" y="1922" width="76.75" height="501" as="geometry" />
+        </mxCell>
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-208" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="V7lW8Zbr6VmkO02WSWUc-207">
+          <mxGeometry x="33.38" y="25" width="10" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V7lW8Zbr6VmkO02WSWUc-209" value="added_connections_保存添加的&#xa;connections_保存所有的&#xa;XmlRpcDispatch相当于事件looper&#xa;&#xa;1. Server的  _disp.addSource(this, XmlRpcDispatch::ReadableEvent);就是用来接收数据的&#xa;2. 并且Server注册的client都是Write事件&#xa;readRequest和readHeader分开" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-1725" y="1934" width="340" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
