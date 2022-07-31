@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T14:51:43.412Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="WLi4bvnbPTSaLTak30Zo" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T15:06:24.352Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="aQc-ez0gzd-_nQqaXLip" version="20.2.2" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
-    <mxGraphModel dx="5962" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6384" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2508,31 +2508,31 @@
         <mxCell id="SSghWza6bcZvdIA6HKir-26" value="XmlRpcClient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-3320" y="2849.5" width="323.25" height="242" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-27" value="+ _disp: XmlRpcDispatch" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
+        <mxCell id="SSghWza6bcZvdIA6HKir-27" value="+ _disp: XmlRpcDispatch" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="26" width="323.25" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SSghWza6bcZvdIA6HKir-28" value="" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="52" width="323.25" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-29" value="+ handleEvent(unsigned eventType) : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
+        <mxCell id="SSghWza6bcZvdIA6HKir-29" value="+ handleEvent(unsigned eventType) : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="60" width="323.25" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-32" value="+ execute(const char* method, XmlRpcValue const&amp; params, XmlRpcValue&amp; result)" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
+        <mxCell id="SSghWza6bcZvdIA6HKir-32" value="+ execute(const char* method, XmlRpcValue const&amp; params, XmlRpcValue&amp; result)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="86" width="323.25" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-33" value="+ executeCheckDone(XmlRpcValue&amp; result) : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
+        <mxCell id="SSghWza6bcZvdIA6HKir-33" value="+ executeCheckDone(XmlRpcValue&amp; result) : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="112" width="323.25" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-81" value="+ writeRequest() : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
+        <mxCell id="SSghWza6bcZvdIA6HKir-81" value="+ writeRequest() : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="138" width="323.25" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-82" value="+ readHeader() : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
+        <mxCell id="SSghWza6bcZvdIA6HKir-82" value="+ readHeader() : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="164" width="323.25" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-83" value="+ readResponse() : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
+        <mxCell id="SSghWza6bcZvdIA6HKir-83" value="+ readResponse() : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="190" width="323.25" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-84" value="+ parseResponse(XmlRpcValue&amp; result) : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
+        <mxCell id="SSghWza6bcZvdIA6HKir-84" value="+ parseResponse(XmlRpcValue&amp; result) : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-26">
           <mxGeometry y="216" width="323.25" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SSghWza6bcZvdIA6HKir-31" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.178;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SSghWza6bcZvdIA6HKir-26" target="SSghWza6bcZvdIA6HKir-17">
@@ -2544,25 +2544,25 @@
         <mxCell id="SSghWza6bcZvdIA6HKir-36" value="XmlRpcServer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-2932.5" y="2849.5" width="460" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-37" value="+ _disp: XmlRpcDispatch" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
+        <mxCell id="SSghWza6bcZvdIA6HKir-37" value="+ _disp: XmlRpcDispatch" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-50" value="+ _methods: std::map&lt; std::string, XmlRpcServerMethod* &gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
+        <mxCell id="SSghWza6bcZvdIA6HKir-50" value="+ _methods: std::map&lt; std::string, XmlRpcServerMethod* &gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
           <mxGeometry y="52" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SSghWza6bcZvdIA6HKir-38" value="" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
           <mxGeometry y="78" width="460" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-39" value="+ handleEvent(unsigned eventType) : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
+        <mxCell id="SSghWza6bcZvdIA6HKir-39" value="+ handleEvent(unsigned eventType) : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
           <mxGeometry y="86" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-40" value="+ work(double msTime) : void" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
+        <mxCell id="SSghWza6bcZvdIA6HKir-40" value="+ work(double msTime) : void" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
           <mxGeometry y="112" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-41" value="+ executeCheckDone(XmlRpcValue&amp; result) : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
+        <mxCell id="SSghWza6bcZvdIA6HKir-41" value="+ executeCheckDone(XmlRpcValue&amp; result) : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
           <mxGeometry y="138" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SSghWza6bcZvdIA6HKir-51" value="+ addMethod(XmlRpcServerMethod* method)) : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
+        <mxCell id="SSghWza6bcZvdIA6HKir-51" value="+ addMethod(XmlRpcServerMethod* method)) : bool" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-36">
           <mxGeometry y="164" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SSghWza6bcZvdIA6HKir-42" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.342;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SSghWza6bcZvdIA6HKir-36" target="SSghWza6bcZvdIA6HKir-17">
@@ -2738,6 +2738,60 @@
         </mxCell>
         <mxCell id="SSghWza6bcZvdIA6HKir-108" value="使用select socket的方式查看存储的fd是否达到mask要求，然后调用函数" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=12;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="-1995.25" y="2514" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-109" value="包装了对client的访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-3071.5" y="3360" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-110" value="PollManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2381.5" y="3340" width="460" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-115" value="+ thread_：boost::thread" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-110">
+          <mxGeometry y="26" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-116" value="+ poll_signal_：boost::signals2::signal&lt;void(void)&gt; " style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-110">
+          <mxGeometry y="52" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-117" value="+ poll_set_：PollSet" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-110">
+          <mxGeometry y="78" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-111" value="" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" vertex="1" parent="SSghWza6bcZvdIA6HKir-110">
+          <mxGeometry y="104" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-112" value="+ virtual addToDispatch(XmlRpc::XmlRpcDispatch* disp) : void" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-110">
+          <mxGeometry y="112" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-113" value="+ virtual removeFromDispatch(XmlRpc::XmlRpcDispatch* disp) : void" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-110">
+          <mxGeometry y="138" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-114" value="+ virtual check() : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-110">
+          <mxGeometry y="164" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-118" value="PollSet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2379.69" y="3550" width="460" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-119" value="+ thread_：boost::thread" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-118">
+          <mxGeometry y="26" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-120" value="+ poll_signal_：boost::signals2::signal&lt;void(void)&gt; " style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-118">
+          <mxGeometry y="52" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-121" value="+ poll_set_：PollSet" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-118">
+          <mxGeometry y="78" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-122" value="" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" vertex="1" parent="SSghWza6bcZvdIA6HKir-118">
+          <mxGeometry y="104" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-123" value="+ virtual addToDispatch(XmlRpc::XmlRpcDispatch* disp) : void" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-118">
+          <mxGeometry y="112" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-124" value="+ virtual removeFromDispatch(XmlRpc::XmlRpcDispatch* disp) : void" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-118">
+          <mxGeometry y="138" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-125" value="+ virtual check() : bool" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SSghWza6bcZvdIA6HKir-118">
+          <mxGeometry y="164" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-126" value="颜色：&lt;br&gt;绿色是类&lt;br&gt;20&lt;br&gt;、 量是蓝色&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-3761" y="2560" width="90" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
