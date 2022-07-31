@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T16:07:53.334Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="L3UmkdHAKoH-8dk9mstt" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T16:09:44.029Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="s4j26R9-Z7lxI7_6TkEs" version="20.2.2" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
     <mxGraphModel dx="5780" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2825,6 +2825,9 @@
         </mxCell>
         <mxCell id="SSghWza6bcZvdIA6HKir-146" value="数组0来当做fd的POLLIN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-1921.5" y="3600" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSghWza6bcZvdIA6HKir-147" value="这个就是为了内部信号读写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1918.25" y="3740" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
