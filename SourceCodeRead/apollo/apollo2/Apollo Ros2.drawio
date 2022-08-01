@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T13:08:36.699Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="eeBFx4u7djb9N_ag2gUa" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T13:31:03.006Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="bw2cJLpYTxjaSJqgoqUx" version="20.2.2" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
-    <mxGraphModel dx="7672" dy="1424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7047" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3039,7 +3039,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wsKspxw0LFsSxZbuxCIO-798" value="这个类相当于关联和节点相关的端口和host&lt;br&gt;requestTopic返回给客户端的就是这个port" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2742.5" y="4410" width="250" height="40" as="geometry" />
+          <mxGeometry x="-2708.25" y="4394" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-801" value="如果sub在pub后面，那么sub还能接收到信息么" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2235" y="1105" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-802" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // We can only do a no-copy publish if a shared_ptr to the message is provided, and we have type information for it&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-4610" y="90" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-803" value="Publication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2405" y="4110" width="326" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-804" value="- publisher_links_: V_PublisherLink " style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wsKspxw0LFsSxZbuxCIO-803">
+          <mxGeometry y="26" width="326" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-805" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="wsKspxw0LFsSxZbuxCIO-803">
+          <mxGeometry y="52" width="326" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-806" value="+ publish(SerializedMessage&amp; m)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wsKspxw0LFsSxZbuxCIO-803">
+          <mxGeometry y="60" width="326" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-807" value="SubscriberLink" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2876" y="4049" width="326" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-808" value="- publisher_links_: V_PublisherLink " style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wsKspxw0LFsSxZbuxCIO-807">
+          <mxGeometry y="26" width="326" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-809" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="wsKspxw0LFsSxZbuxCIO-807">
+          <mxGeometry y="52" width="326" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wsKspxw0LFsSxZbuxCIO-810" value="+ addPublisherLink(const PublisherLinkPtr&amp; link)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wsKspxw0LFsSxZbuxCIO-807">
+          <mxGeometry y="60" width="326" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
