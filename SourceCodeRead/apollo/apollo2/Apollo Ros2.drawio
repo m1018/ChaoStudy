@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T15:31:08.851Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="YoQTC8OOy7-peqQJZ0yz" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-03T15:37:49.380Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="iekVsr0Ri-Km5q5YMG9T" version="20.2.3" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
-    <mxGraphModel dx="6600" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5508" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7hRlcYUowMKMc6Ptq_S3-120" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="600" width="1220" height="920" as="geometry" />
+        </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-28" value="当接收到Pub内部开始处理" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=25;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-690" y="600" width="1420" height="920" as="geometry" />
         </mxCell>
@@ -761,51 +764,6 @@
         <mxCell id="eevFdOWoKw9s9U8n2egH-10" value="端口传0，让操作系统选择" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=8;fontColor=#5C5C5C;" parent="1" vertex="1">
           <mxGeometry x="-4119.59" y="1884" width="104.25" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-12" value=":TopicManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="-3549.59" y="1812" width="95" height="377" as="geometry" />
-        </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="eevFdOWoKw9s9U8n2egH-12" vertex="1">
-          <mxGeometry x="42" y="50" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=7;fontColor=#666666;" parent="eevFdOWoKw9s9U8n2egH-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-59.690000000000055" y="64" as="sourcePoint" />
-            <mxPoint x="45.309999999999945" y="64" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="13.309999999999945" y="64" />
-              <mxPoint x="13.309999999999945" y="64" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-15" value="start(port)" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontColor=#666666;labelBackgroundColor=none;" parent="eevFdOWoKw9s9U8n2egH-14" vertex="1" connectable="0">
-          <mxGeometry x="-0.1081" relative="1" as="geometry">
-            <mxPoint y="-6" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-16" value="端口传0，让操作系统选择" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=8;fontColor=#5C5C5C;" parent="1" vertex="1">
-          <mxGeometry x="-3614.59" y="1876" width="104.25" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-19" value=":XMLRPCManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="-3434.59" y="1812" width="95" height="377" as="geometry" />
-        </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="eevFdOWoKw9s9U8n2egH-19" vertex="1">
-          <mxGeometry x="42" y="50" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=7;fontColor=#666666;" parent="1" source="eevFdOWoKw9s9U8n2egH-12" target="eevFdOWoKw9s9U8n2egH-20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3504.59" y="1890" as="sourcePoint" />
-            <mxPoint x="-3389.2799999999997" y="1876" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-3444.59" y="1880" />
-              <mxPoint x="-3444.59" y="1880" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eevFdOWoKw9s9U8n2egH-22" value="bind(const std::string&amp; function_name, const XMLRPCFunc&amp; cb)" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontColor=#666666;labelBackgroundColor=none;" parent="eevFdOWoKw9s9U8n2egH-21" vertex="1" connectable="0">
-          <mxGeometry x="-0.1081" relative="1" as="geometry">
-            <mxPoint x="61" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="eevFdOWoKw9s9U8n2egH-23" value=":XMLRPCManagerPtr" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
           <mxGeometry x="1517" y="1324.69" width="95" height="377" as="geometry" />
         </mxCell>
@@ -1409,9 +1367,6 @@
             <mxPoint x="-90" y="33" as="sourcePoint" />
             <mxPoint x="33.38000000000011" y="33" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="uUSyIo7moORraF6D4WAz-1" value="也就是这里面的服务发现，只用在远程调用XML上了&lt;br&gt;如果是共享内存，不需要这个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-4087.59" y="2110" width="218" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qe652mf7woPn_8bzL7wS-1" value="BroadcastManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="2620" y="2236.56" width="680" height="368" as="geometry" />
@@ -3196,77 +3151,6 @@
         <mxCell id="is29wKme27u52GuARuIQ-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;arcSize=50;" parent="is29wKme27u52GuARuIQ-67" vertex="1">
           <mxGeometry x="33.37" y="473.5" width="10" height="96.5" as="geometry" />
         </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-27" value="XmlRpcServer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1303.5700000000002" y="2514" width="153.38" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-30" value="" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" vertex="1" parent="7hRlcYUowMKMc6Ptq_S3-27">
-          <mxGeometry y="26" width="153.38" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-35" value="XMLRPCManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1368.5" y="2414" width="283.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-39" value="+ server_: XmlRpc::XmlRpcServer" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7hRlcYUowMKMc6Ptq_S3-35">
-          <mxGeometry y="26" width="283.25" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-42" value="" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" vertex="1" parent="7hRlcYUowMKMc6Ptq_S3-35">
-          <mxGeometry y="52" width="283.25" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7hRlcYUowMKMc6Ptq_S3-46" target="7hRlcYUowMKMc6Ptq_S3-35">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1070" y="2430" />
-              <mxPoint x="-1070" y="2430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-46" value="向socket注册RpcServer的ip, 最终Server的uri就是：&#xa;&quot;http://&quot; &lt;&lt; network::getHost() &lt;&lt; &quot;:&quot; &lt;&lt; port_ &lt;&lt; &quot;/&quot;&#xa;关于host，如果没有任何设置默认是gethostname的值" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1015.25" y="2409" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-47" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="7hRlcYUowMKMc6Ptq_S3-35" target="7hRlcYUowMKMc6Ptq_S3-27">
-          <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="-1430" y="2620" as="sourcePoint" />
-            <mxPoint x="-1270" y="2620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7hRlcYUowMKMc6Ptq_S3-48" target="7hRlcYUowMKMc6Ptq_S3-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-48" value="哪里会用到：&#xa;1. 服务发现的时候pub和sub会把这个uri填充到messge中发送出去，&#xa;这样接收方就可以通过这个来进行RPC通信" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="2460" width="380" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-49" value="XmlRpcClient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1575.3800000000003" y="2414" width="153.38" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-50" value="" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" vertex="1" parent="7hRlcYUowMKMc6Ptq_S3-49">
-          <mxGeometry y="26" width="153.38" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-52" value="向socket注册fd和port，主要用于对于&lt;br&gt;远程服务发现过来的请求进行连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1628.25" y="2369" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-55" value="XmlRpcServerConnection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1317" y="2604.56" width="185" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=0;" vertex="1" parent="7hRlcYUowMKMc6Ptq_S3-55">
-          <mxGeometry y="26" width="185" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7hRlcYUowMKMc6Ptq_S3-59" target="7hRlcYUowMKMc6Ptq_S3-55">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-59" value="哪里会用到：&#xa;主要用于rpc的回应方，用client连接这个server的时候，server的listen产生的服务" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1085.25" y="2601.56" width="450" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-63" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="7hRlcYUowMKMc6Ptq_S3-27" target="7hRlcYUowMKMc6Ptq_S3-55">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1460" y="2690" as="sourcePoint" />
-            <mxPoint x="-1300" y="2690" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-65" value="ConnectionManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1540" y="2604.56" width="185" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=0;" vertex="1" parent="7hRlcYUowMKMc6Ptq_S3-65">
-          <mxGeometry y="26" width="185" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-68" value="&lt;span style=&quot;text-align: left;&quot;&gt;update轮询&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;ufds_，如果有对应event发生，进行函数调用&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-2139" y="4783" width="320" height="30" as="geometry" />
         </mxCell>
@@ -3304,7 +3188,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-78" value="TransportUDP" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-3390.7499999999995" y="4831" width="261" height="112" as="geometry" />
+          <mxGeometry x="-3401.9999999999995" y="4812" width="261" height="112" as="geometry" />
         </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-80" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="7hRlcYUowMKMc6Ptq_S3-78">
           <mxGeometry y="26" width="261" height="8" as="geometry" />
@@ -3352,8 +3236,8 @@
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-99" value="ip为远端的ip和port" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-1150.19" y="1392.62" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7hRlcYUowMKMc6Ptq_S3-100" value="存放的是发送端的uri" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="-4143.54" y="3749" width="110" height="20" as="geometry" />
+        <mxCell id="7hRlcYUowMKMc6Ptq_S3-100" value="存放的是发送端的uri相当于发送方的代理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-4223" y="3740" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-104" value="根据requestTopic服务端的回复得到服务端发送消息的Host和Port" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-797.62" y="1170" width="94.75" height="40.13" as="geometry" />
@@ -3383,6 +3267,12 @@
         </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-118" value="之前创建的UDP的port和ip在这里传输给server" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="80" y="863.31" width="80" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="7hRlcYUowMKMc6Ptq_S3-121" value="向socket注册RpcServer的ip, 最终Server的uri就是：&#xa;&quot;http://&quot; &lt;&lt; network::getHost() &lt;&lt; &quot;:&quot; &lt;&lt; port_ &lt;&lt; &quot;/&quot;&#xa;关于host，如果没有任何设置默认是gethostname的值" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3070" y="2375.5" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7hRlcYUowMKMc6Ptq_S3-122" value="哪里会用到：&#xa;1. 服务发现的时候pub和sub会把这个uri填充到messge中发送出去，&#xa;这样接收方就可以通过这个来进行RPC通信" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3054.75" y="2426.5" width="380" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
