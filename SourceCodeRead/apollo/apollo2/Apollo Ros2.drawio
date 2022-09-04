@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T03:29:39.465Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="V7yrF-2EbRHKqLa0zF68" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-04T03:32:46.363Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="7LOwgelaVGDkWUq0NZhP" version="20.2.8" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
-    <mxGraphModel dx="7771" dy="1557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5617" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-1910" y="600" width="1220" height="920" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-28" value="当接收到Pub内部开始处理" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=25;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="600" width="1420" height="920" as="geometry" />
+          <mxGeometry x="-640" y="590" width="1510" height="933.19" as="geometry" />
         </mxCell>
         <mxCell id="V7lW8Zbr6VmkO02WSWUc-163" value="DDS域" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=top;fontStyle=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-2204" y="1430" width="384" height="200" as="geometry" />
@@ -2664,7 +2664,7 @@
           <mxGeometry x="-1460" y="1493" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-35" value=":XMLRPCManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="-503" y="702" width="76.75" height="742" as="geometry" />
+          <mxGeometry x="-363" y="705.19" width="76.75" height="742" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;arcSize=50;" parent="tCIKrgG2bzMmZbqlSpOW-35" vertex="1">
           <mxGeometry x="33" y="48.81" width="10" height="481.19" as="geometry" />
@@ -2688,10 +2688,10 @@
           <mxGeometry x="43" y="84.30999999999995" width="10" height="45" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-37" value="执行内部的异步请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-525" y="678.31" width="100" height="20" as="geometry" />
+          <mxGeometry x="-385" y="681.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-52" value=":ASyncXMLRPCConnection" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="-418" y="702" width="100" height="737.69" as="geometry" />
+          <mxGeometry x="-278" y="705.19" width="100" height="737.69" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="tCIKrgG2bzMmZbqlSpOW-52" vertex="1">
           <mxGeometry x="44.99999999999989" y="82.30999999999995" width="10" height="45" as="geometry" />
@@ -2699,8 +2699,8 @@
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-45" target="tCIKrgG2bzMmZbqlSpOW-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-433" y="806.31" />
-              <mxPoint x="-433" y="806.31" />
+              <mxPoint x="-293" y="809.5" />
+              <mxPoint x="-293" y="809.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2709,11 +2709,11 @@
             <mxPoint x="12" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tCIKrgG2bzMmZbqlSpOW-60" value="进行一次内部的&#xa;added_connections_遍历添加到server的下面" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="753.31" width="200" height="40" as="geometry" />
+        <mxCell id="tCIKrgG2bzMmZbqlSpOW-60" value="进行一次内部的added_connections_&#xa;遍历添加到server的下面" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="-498" y="730" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-61" value=":XmlRpcServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="-303" y="702" width="100" height="737.69" as="geometry" />
+          <mxGeometry x="-163" y="705.19" width="100" height="737.69" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="tCIKrgG2bzMmZbqlSpOW-61" vertex="1">
           <mxGeometry x="44.74999999999989" y="52.309999999999945" width="10" height="45" as="geometry" />
@@ -2724,8 +2724,8 @@
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-36" target="tCIKrgG2bzMmZbqlSpOW-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-313" y="766.31" />
-              <mxPoint x="-313" y="766.31" />
+              <mxPoint x="-173" y="769.5" />
+              <mxPoint x="-173" y="769.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2737,16 +2737,16 @@
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-36" target="tCIKrgG2bzMmZbqlSpOW-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-313" y="846.31" />
-              <mxPoint x="-313" y="846.31" />
+              <mxPoint x="-173" y="849.5" />
+              <mxPoint x="-173" y="849.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-69" value="work(double msTime)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-463" y="841.31" width="180" height="30" as="geometry" />
+          <mxGeometry x="-323" y="844.5" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-70" value=":XmlRpcDispatch" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="-196.6199999999999" y="702" width="100" height="737.69" as="geometry" />
+          <mxGeometry x="-56.61999999999989" y="705.19" width="100" height="737.69" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="tCIKrgG2bzMmZbqlSpOW-70" vertex="1">
           <mxGeometry x="45" y="136.31" width="10" height="303.69" as="geometry" />
@@ -2757,8 +2757,8 @@
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-66" target="tCIKrgG2bzMmZbqlSpOW-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-223" y="853.31" />
-              <mxPoint x="-223" y="853.31" />
+              <mxPoint x="-83" y="856.5" />
+              <mxPoint x="-83" y="856.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2768,13 +2768,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-75" value="开始进行所有保存socket fd和event的轮询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-155" y="838.31" width="190" height="20" as="geometry" />
+          <mxGeometry x="-15" y="841.5" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-79" value="比如说对于&lt;span style=&quot;font-size: 9px;&quot;&gt;当接收到Pub条目&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-145" y="858.31" width="140" height="20" as="geometry" />
+          <mxGeometry x="-5" y="861.5" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-80" value=":XmlRpcClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="-69.99999999999989" y="702" width="100" height="737.69" as="geometry" />
+          <mxGeometry x="70.00000000000011" y="705.19" width="100" height="737.69" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="tCIKrgG2bzMmZbqlSpOW-80" source="tCIKrgG2bzMmZbqlSpOW-81" target="tCIKrgG2bzMmZbqlSpOW-86" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2801,8 +2801,8 @@
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-77" target="tCIKrgG2bzMmZbqlSpOW-81" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-53" y="895.31" />
-              <mxPoint x="-53" y="895.31" />
+              <mxPoint x="87" y="898.5" />
+              <mxPoint x="87" y="898.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2812,24 +2812,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-89" value="把之前组装的xml方法发送到socket中, 比如requestopic的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-5" y="933.37" width="250" height="20" as="geometry" />
+          <mxGeometry x="135" y="936.5600000000001" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-81" target="tCIKrgG2bzMmZbqlSpOW-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-103" y="986.31" />
-              <mxPoint x="-103" y="986.31" />
+              <mxPoint x="37" y="989.5" />
+              <mxPoint x="37" y="989.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-91" value="将新的event事件返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-128" y="966.31" width="110" height="20" as="geometry" />
+          <mxGeometry x="12" y="969.5" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-92" value="这里说明下返回值因为最开始添加的是write，&lt;br&gt;写后就应该等候读取远端的响应回复了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="10" y="959" width="200" height="40" as="geometry" />
+          <mxGeometry x="150" y="962.19" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-149" value=":XmlRpcServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="199" y="698.3100000000002" width="100" height="737.69" as="geometry" />
+          <mxGeometry x="339" y="701.5000000000002" width="100" height="737.69" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-150" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="tCIKrgG2bzMmZbqlSpOW-149" vertex="1">
           <mxGeometry x="44.74999999999989" y="52.309999999999945" width="10" height="45" as="geometry" />
@@ -2865,7 +2865,7 @@
           <mxGeometry x="44.750000000000114" y="561.69" width="10" height="112" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-152" value=":XmlRpcDispatch" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="305.3800000000001" y="698.3100000000002" width="100" height="737.69" as="geometry" />
+          <mxGeometry x="445.3800000000001" y="701.5000000000002" width="100" height="737.69" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-153" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="tCIKrgG2bzMmZbqlSpOW-152" vertex="1">
           <mxGeometry x="45" y="136.31" width="10" height="113.69" as="geometry" />
@@ -2885,8 +2885,8 @@
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-151" target="tCIKrgG2bzMmZbqlSpOW-153" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="279" y="849.6200000000001" />
-              <mxPoint x="279" y="849.6200000000001" />
+              <mxPoint x="419" y="852.8100000000002" />
+              <mxPoint x="419" y="852.8100000000002" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2896,7 +2896,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-159" value=":XmlRpcServerConnection" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="444.0000000000001" y="698.3100000000002" width="100" height="737.69" as="geometry" />
+          <mxGeometry x="584.0000000000001" y="701.5000000000002" width="100" height="737.69" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-184" value="作为连接的这个通路的请求者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="tCIKrgG2bzMmZbqlSpOW-159" vertex="1">
           <mxGeometry x="-149.0000000000001" y="230.99999999999977" width="140" height="20" as="geometry" />
@@ -2959,31 +2959,31 @@
           <mxGeometry x="65" y="571.69" width="10" height="58.31" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-170" value="代码都是一套，这里画出方便解释，对于Server, 这个就是那个pub的发起进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="195" y="663" width="430" height="30" as="geometry" />
+          <mxGeometry x="335" y="666.19" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-172" value="当client事件连接后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="368" y="843.31" width="100" height="20" as="geometry" />
+          <mxGeometry x="508" y="846.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-176" value="主要为了client连接的时候，生成socket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="197" y="746.31" width="180" height="20" as="geometry" />
+          <mxGeometry x="337" y="749.5" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCIKrgG2bzMmZbqlSpOW-171" value="handleEvent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-153" target="tCIKrgG2bzMmZbqlSpOW-154" edge="1">
           <mxGeometry x="-0.1021" y="-10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="337" y="886.31" />
-              <mxPoint x="337" y="886.31" />
+              <mxPoint x="477" y="889.5" />
+              <mxPoint x="477" y="889.5" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-2" value="&lt;span style=&quot;&quot;&gt;对于Client, pub服务发现接收进程&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-513" y="663" width="470" height="13" as="geometry" />
+          <mxGeometry x="-373" y="666.19" width="470" height="13" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-178" target="is29wKme27u52GuARuIQ-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="327" y="986.31" />
-              <mxPoint x="327" y="986.31" />
+              <mxPoint x="467" y="989.5" />
+              <mxPoint x="467" y="989.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2995,16 +2995,16 @@
         <mxCell id="is29wKme27u52GuARuIQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" parent="1" source="is29wKme27u52GuARuIQ-10" target="tCIKrgG2bzMmZbqlSpOW-178" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="407" y="966.31" />
-              <mxPoint x="407" y="966.31" />
+              <mxPoint x="547" y="969.5" />
+              <mxPoint x="547" y="969.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" parent="1" source="is29wKme27u52GuARuIQ-13" target="is29wKme27u52GuARuIQ-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="467" y="1067.31" />
-              <mxPoint x="467" y="1067.31" />
+              <mxPoint x="607" y="1070.5" />
+              <mxPoint x="607" y="1070.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3014,16 +3014,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-17" value="对应client的writerequest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="361.75" y="1034" width="120" height="20" as="geometry" />
+          <mxGeometry x="501.75" y="1037.19" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-24" value="读Header后就读readResponse, 顺次的" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="507" y="1116.31" width="180" height="20" as="geometry" />
+          <mxGeometry x="647" y="1119.5" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;" parent="1" source="is29wKme27u52GuARuIQ-30" target="is29wKme27u52GuARuIQ-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="430" y="1300" />
-              <mxPoint x="430" y="1300" />
+              <mxPoint x="570" y="1303.19" />
+              <mxPoint x="570" y="1303.19" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3033,25 +3033,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-36" value=":TopicManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="580" y="698.31" width="100" height="737.69" as="geometry" />
+          <mxGeometry x="720" y="701.5" width="100" height="737.69" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-43" value="requestTopic(const string &amp;topic,XmlRpcValue &amp;protos, XmlRpcValue &amp;ret)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=9;" parent="1" source="is29wKme27u52GuARuIQ-40" target="is29wKme27u52GuARuIQ-42" edge="1">
           <mxGeometry y="130" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="660" y="1330" />
-              <mxPoint x="660" y="1360" />
+              <mxPoint x="800" y="1333.19" />
+              <mxPoint x="800" y="1363.19" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
-          <mxGeometry x="625" y="1290.69" width="10" height="129.31" as="geometry" />
+          <mxGeometry x="765" y="1293.88" width="10" height="129.31" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-41" value="requestTopicCallback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontSize=9;labelBackgroundColor=none;" parent="1" source="is29wKme27u52GuARuIQ-30" target="is29wKme27u52GuARuIQ-40" edge="1">
           <mxGeometry x="-0.0377" y="-10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="550" y="1320" />
-              <mxPoint x="550" y="1320" />
+              <mxPoint x="690" y="1323.19" />
+              <mxPoint x="690" y="1323.19" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -3059,36 +3059,36 @@
         <mxCell id="is29wKme27u52GuARuIQ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=9;" parent="1" source="is29wKme27u52GuARuIQ-42" target="is29wKme27u52GuARuIQ-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="1370" />
-              <mxPoint x="540" y="1370" />
+              <mxPoint x="680" y="1373.19" />
+              <mxPoint x="680" y="1373.19" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
-          <mxGeometry x="635.0000000000001" y="1340.6900000000003" width="10" height="58.31" as="geometry" />
+          <mxGeometry x="775.0000000000001" y="1343.8800000000003" width="10" height="58.31" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-45" value="这里第二个参数和第三个分别是入参和出参" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="670" y="1349" width="160" height="21" as="geometry" />
+          <mxGeometry x="810" y="1352.19" width="160" height="21" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-47" value="&lt;span style=&quot;text-align: left;&quot;&gt;然后其实就是回复Response给client，如果是TCP这里带的是&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;connection_manager_ port和network::getHost()&lt;br&gt;要注意这里的port端口，已经是connect的了&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="468" y="1402.13" width="240" height="46.87" as="geometry" />
+          <mxGeometry x="608" y="1405.3200000000002" width="240" height="46.87" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-53" value="readResponse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=9;" parent="1" source="is29wKme27u52GuARuIQ-48" target="is29wKme27u52GuARuIQ-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="20" y="1050" />
-              <mxPoint x="20" y="1101" />
+              <mxPoint x="160" y="1053.19" />
+              <mxPoint x="160" y="1104.19" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
-          <mxGeometry x="-14.999999999999886" y="1019.6600000000001" width="10" height="41.34" as="geometry" />
+          <mxGeometry x="125.00000000000011" y="1022.8500000000001" width="10" height="41.34" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-81" target="is29wKme27u52GuARuIQ-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="20" y="1000" />
-              <mxPoint x="20" y="1040" />
+              <mxPoint x="160" y="1003.19" />
+              <mxPoint x="160" y="1043.19" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3098,27 +3098,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-55" value="接者等待远端的回复" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1012" width="60" height="30" as="geometry" />
+          <mxGeometry x="200" y="1015.19" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-57" value="将结果保存，并移除&lt;span style=&quot;color: rgb(92, 92, 92);&quot;&gt;XmlRpcDispatch&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="20" y="1099" width="90" height="31" as="geometry" />
+          <mxGeometry x="160" y="1102.19" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-81" target="tCIKrgG2bzMmZbqlSpOW-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-350" y="1150" />
-              <mxPoint x="-350" y="1150" />
+              <mxPoint x="-210" y="1153.19" />
+              <mxPoint x="-210" y="1153.19" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-59" value="因为rpc是线程轮询，执行task后" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="1107" width="90" height="31" as="geometry" />
+          <mxGeometry x="-260" y="1110.19" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=9;" parent="1" source="is29wKme27u52GuARuIQ-64" target="is29wKme27u52GuARuIQ-68" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-170" y="1230" />
-              <mxPoint x="-170" y="1230" />
+              <mxPoint x="-30" y="1233.19" />
+              <mxPoint x="-30" y="1233.19" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3128,22 +3128,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
-          <mxGeometry x="-25" y="1168.79" width="10" height="71.21" as="geometry" />
+          <mxGeometry x="115" y="1171.98" width="10" height="71.21" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-65" value="executeCheckDone" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontSize=9;" parent="1" source="tCIKrgG2bzMmZbqlSpOW-36" target="is29wKme27u52GuARuIQ-64" edge="1">
           <mxGeometry x="0.0596" y="9" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-242" y="1190" />
-              <mxPoint x="-242" y="1189" />
+              <mxPoint x="-102" y="1193.19" />
+              <mxPoint x="-102" y="1192.19" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-66" value="解析为_response进行保存" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-15" y="1174.46" width="110" height="15.54" as="geometry" />
+          <mxGeometry x="125" y="1177.65" width="110" height="15.54" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-67" value=":Subscription" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
-          <mxGeometry x="-640" y="707" width="76.75" height="742" as="geometry" />
+          <mxGeometry x="-600" y="751" width="76.75" height="742" as="geometry" />
         </mxCell>
         <mxCell id="is29wKme27u52GuARuIQ-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;arcSize=50;" parent="is29wKme27u52GuARuIQ-67" vertex="1">
           <mxGeometry x="33.37" y="473.5" width="10" height="96.5" as="geometry" />
@@ -3222,7 +3222,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-89" value="这里还有一个执行PendingConnection的check" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="-458" y="1157" width="90" height="31" as="geometry" />
+          <mxGeometry x="-318" y="1160.19" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-92" value=":PendingConnection" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" parent="1" vertex="1">
           <mxGeometry x="-1070.19" y="1342.62" width="76.75" height="481" as="geometry" />
@@ -3263,7 +3263,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-118" value="之前创建的UDP的port和ip在这里传输给server" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="80" y="863.31" width="80" height="37" as="geometry" />
+          <mxGeometry x="220" y="866.5" width="80" height="37" as="geometry" />
         </mxCell>
         <mxCell id="7hRlcYUowMKMc6Ptq_S3-121" value="向socket注册RpcServer的ip, 最终Server的uri就是：&#xa;&quot;http://&quot; &lt;&lt; network::getHost() &lt;&lt; &quot;:&quot; &lt;&lt; port_ &lt;&lt; &quot;/&quot;&#xa;关于host，如果没有任何设置默认是gethostname的值" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2140.7200000000003" y="3100" width="310" height="60" as="geometry" />
@@ -3334,6 +3334,15 @@
         </mxCell>
         <mxCell id="4gaZzClPMAcXvXoTlMrr-18" value="感觉sub没做啥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-1530" y="1742" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4gaZzClPMAcXvXoTlMrr-20" value=":TransportPublisherLink" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#5C5C5C;fontSize=9;size=20;fillColor=#21C0A5;labelBackgroundColor=none;rounded=1;labelBorderColor=none;strokeColor=#006658;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="1246.59" width="100" height="193.41" as="geometry" />
+        </mxCell>
+        <mxCell id="4gaZzClPMAcXvXoTlMrr-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;arcSize=50;" vertex="1" parent="4gaZzClPMAcXvXoTlMrr-20">
+          <mxGeometry x="33.37" y="473.5" width="10" height="96.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4gaZzClPMAcXvXoTlMrr-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;arcSize=50;" vertex="1" parent="4gaZzClPMAcXvXoTlMrr-20">
+          <mxGeometry x="45" y="33.41" width="10" height="61.41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
