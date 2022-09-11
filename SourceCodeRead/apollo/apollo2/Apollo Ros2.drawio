@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-11T16:49:17.883Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="XIQSX7d7JoGB_IpStJo2" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-11T17:32:11.824Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="SOBXZHEEd91OMH6JoEa7" version="20.3.0" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
-    <mxGraphModel dx="7651" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7866" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4883,6 +4883,9 @@
         </mxCell>
         <mxCell id="OkhTUxNUknsuo4EyugHF-629" value="/apollo/apollo-platform-2.1.2/ros/ros_comm/rostopic/src/rostopic/__init__.py" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=31;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="900" y="4395" width="1060" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OkhTUxNUknsuo4EyugHF-630" value="ros的工具在接收到信息后怎么根据字符串得到具体类型呢&lt;br&gt;关键在于：/apollo/apollo-platform-2.1.2/ros/ros_comm/rostopic/src/rostopic/__init__.py" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=31;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1565" y="-265" width="1210" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
