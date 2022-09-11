@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-11T08:05:20.634Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="0kN7KjAsIqc62534UHGC" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-11T10:30:46.830Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="PV_VE5myaQ8Il9wmXM1K" version="20.3.0" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
-    <mxGraphModel dx="15676" dy="6224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11793" dy="4058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2036,6 +2036,9 @@
         </mxCell>
         <mxCell id="OkhTUxNUknsuo4EyugHF-200" value="至此进行了消息的回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=8;" vertex="1" parent="OkhTUxNUknsuo4EyugHF-218">
           <mxGeometry x="695.5300000000002" y="530" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OkhTUxNUknsuo4EyugHF-628" value="正是由于初始化的时候helper记录了类型信息" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="OkhTUxNUknsuo4EyugHF-218">
+          <mxGeometry x="856" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OkhTUxNUknsuo4EyugHF-224" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-4170" y="1760" width="590" height="490" as="geometry" />
@@ -4876,6 +4879,9 @@
         </mxCell>
         <mxCell id="OkhTUxNUknsuo4EyugHF-498" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;md5sum&lt;/span&gt;&lt;br style=&quot;font-size: 9px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontSize=9;" vertex="1" parent="OkhTUxNUknsuo4EyugHF-627">
           <mxGeometry x="50" y="44" width="40" height="64.13" as="geometry" />
+        </mxCell>
+        <mxCell id="OkhTUxNUknsuo4EyugHF-629" value="/apollo/apollo-platform-2.1.2/ros/ros_comm/rostopic/src/rostopic/__init__.py" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=31;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="900" y="4395" width="1060" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
