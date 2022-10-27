@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T14:16:00.716Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="3-9PKDh2ITS4T26oehxC" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T14:20:13.196Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="F6Tzgv8IC9m0L83j-9YG" version="20.5.1" type="github">
   <diagram id="MToADi66JZhhlWnkmp-e" name="Page-1">
     <mxGraphModel dx="8126" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5014,7 +5014,7 @@
         <mxCell id="0EyH41jOUmY9vOMbs6e8-2" value="通过topic找对应的Pub的ip" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1765" y="3231" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qxZkaUJ1tLiD6YG-im42-2" value="基本和Topic类似，核心思想还是RpcServer, 主要就是Service注册服务, 客户端记录这个服务ip, ServiceClient创建createServiceServerLink然后进行连接，然后发送writeHeader，服务端处理handleHeader" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=29;whiteSpace=wrap;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="qxZkaUJ1tLiD6YG-im42-2" value="基本和Topic类似，核心思想还是RpcServer, 主要就是Service注册服务, 客户端记录这个服务ip, ServiceClient创建createServiceServerLink然后进行连接，然后发送writeHeader，服务端处理handleHeader onConnectionHeaderReceived" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=29;whiteSpace=wrap;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-6320" y="4350" width="1140" height="170" as="geometry" />
         </mxCell>
       </root>
