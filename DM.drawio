@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T05:58:27.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.8.1" etag="g5XgvL3BpDq54MU1P-FJ" type="github"><diagram id="m8hdrzyTGK4Sz9r10fku">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-11T13:52:10.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.8.1" etag="X2r1WkZKbsY2z5oInkzQ" type="github">
+  <diagram id="Nb6Q6SlPlY30YCN-26wX" name="第 1 页">
+    <mxGraphModel dx="1961" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-5" value="SoftwareCluster" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="60" width="480" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-19" value="DiagServer" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="200" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-17" value="DM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry y="385" width="640" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-2" value="Diagnostic &lt;br&gt;Event Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-4" value="Diagnostic &lt;br&gt;Communication Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="250" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-12" value="DM&lt;br style=&quot;font-size: 20px;&quot;&gt;单独一个进程" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;rotation=0;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="390" width="50" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-13" value="&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 16px;&quot;&gt;	&lt;/span&gt;UdsTransportProtocolHandler" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;align=left;fontSize=16;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry y="570" width="640" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-14" value="&lt;br&gt;Transport Protocol Manager" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;align=center;fontSize=16;fillColor=#60a917;fontColor=#000000;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="60" y="515" width="520" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-15" value="UDS Transport &lt;br&gt;Layer" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=16;fontColor=#ffffff;rotation=90;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-16" value="&lt;br&gt;DoIP_TransportProtocolHandler" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;align=center;fontSize=16;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="70" y="660" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-18" value="Application Layer" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=16;fontColor=#ffffff;rotation=-90;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="390" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-21" value="diagnosticAddress" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="45" y="310" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d23sJ6cd4pM8bjIyA1nU-23" target="d23sJ6cd4pM8bjIyA1nU-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="620" as="sourcePoint" />
+            <mxPoint x="-230" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-23" value="统一的UDS传输协议接口&lt;br&gt;AP中使用Doip协议继承实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="590" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d23sJ6cd4pM8bjIyA1nU-26" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="920" width="100" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
