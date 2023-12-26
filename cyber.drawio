@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T03:12:34.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.9" etag="8cLVs6ri20JGC4qpbWKC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T09:17:39.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BrO1iAgPRAF2AJYG30eQ" version="22.1.9" type="github">
   <diagram name="第 1 页" id="JhB41wdzhbessd_QbkDU">
-    <mxGraphModel>
+    <mxGraphModel dx="529" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TvfbEHWfSeIX3GBcZRCY-2" value="template &amp;lt;typename M&amp;gt;&lt;br&gt;Receiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="480" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="TvfbEHWfSeIX3GBcZRCY-7" value="&lt;div&gt;&amp;nbsp; using MessagePtr = std::shared_ptr&amp;lt;M&amp;gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; using MessageListener = std::function&amp;lt;void(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; const MessagePtr&amp;amp;, const MessageInfo&amp;amp;, const RoleAttributes&amp;amp;)&amp;gt;;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TvfbEHWfSeIX3GBcZRCY-2">
+          <mxGeometry y="40" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TvfbEHWfSeIX3GBcZRCY-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TvfbEHWfSeIX3GBcZRCY-2">
+          <mxGeometry y="90" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TvfbEHWfSeIX3GBcZRCY-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TvfbEHWfSeIX3GBcZRCY-2">
+          <mxGeometry y="116" width="480" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TvfbEHWfSeIX3GBcZRCY-5" value="+&amp;nbsp; &amp;nbsp;OnNewMessage(msg:const MessagePtr&amp;amp;, msg_info:const MessageInfo&amp;amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TvfbEHWfSeIX3GBcZRCY-2">
+          <mxGeometry y="124" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TvfbEHWfSeIX3GBcZRCY-8" value="template &amp;lt;typename M&amp;gt;&lt;br&gt;ShmReceiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="480" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="TvfbEHWfSeIX3GBcZRCY-10" value="+ dispatcher_: ShmDispatcherPtr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TvfbEHWfSeIX3GBcZRCY-8">
+          <mxGeometry y="40" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TvfbEHWfSeIX3GBcZRCY-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TvfbEHWfSeIX3GBcZRCY-8">
+          <mxGeometry y="66" width="480" height="8" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
